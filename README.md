@@ -50,3 +50,22 @@ Additional Concepts
 	- Use of structs for account and transaction modeling
 
 	- Basic input validation (e.g., PIN length, numeric checks) 
+
+Using the Program
+If you'd like to try out the program:
+
+For Windows Users
+1. Download the .zip file from this repository.
+
+2. Extract the contents to a folder.
+
+3. Double-click on main.exe to run the program — no additional setup is required.
+
+For macOS Users
+Since .exe files are designed for Windows, you'll need to use one of the following methods:
+
+Option 1: Wine
+Install Wine to run main.exe directly on macOS.
+
+Option 2: Windows Virtual Machine
+Use a tool like VirtualBox, Parallels, or VMware Fusion to run a Windows VM and execute the program inside it.
