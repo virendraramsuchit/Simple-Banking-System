@@ -52,6 +52,7 @@ Additional Concepts
 	- Basic input validation (e.g., PIN length, numeric checks) 
 
 Using the Program
+
 If you'd like to try out the program:
 
 For Windows Users
@@ -62,6 +63,7 @@ For Windows Users
 3. Double-click on main.exe to run the program — no additional setup is required.
 
 For macOS Users
+
 Since .exe files are designed for Windows, you'll need to use one of the following methods:
 
 Option 1: Wine
