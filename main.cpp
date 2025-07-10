@@ -581,32 +581,6 @@ void checkBalance(Account a){
 	
 }
 
-void printList(Account *top){
-	
-	if (top == NULL){
-		
-		cout << "List is empty" << endl;
-		return;
-		
-	}
-	
-	Account *curr;
-	curr = top;
-	
-	while(curr != NULL){
-		
-		cout << "Account #: " << curr->acc_num << endl;
-		cout << "Name: " << curr->name << endl;
-		cout << "Pin: " << curr->pin << endl;
-		cout << "Balance: " << curr->balance << endl;
-		cout << endl;
-		
-		curr = curr->next;
-		
-	}
-}
-
-
 
 int main (){
 	
@@ -778,8 +752,6 @@ int main (){
 		cout << endl;
 		cout <<	"End of Program... I hope I was of good use" << endl;
 		storeAccounts(top);
-	
-	printList(top);
 	
 	return 0; 
 }
